@@ -1,0 +1,289 @@
+/* ============ neumorphic primitives ============ */
+
+.neu,
+.neu-in {
+  background: var(--surface);
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.15s ease,
+    background-color 0.35s ease;
+}
+
+.neu {
+  border-radius: var(--r, var(--r-md));
+  box-shadow:
+    -6px -6px 12px var(--sh-l),
+    6px 6px 12px var(--sh-d);
+}
+
+.neu-sm {
+  border-radius: var(--r-sm);
+  box-shadow:
+    -4px -4px 8px var(--sh-l),
+    4px 4px 8px var(--sh-d);
+}
+
+.neu-in {
+  border-radius: var(--r, var(--r-md));
+  box-shadow:
+    inset -5px -5px 10px var(--sh-l),
+    inset 5px 5px 10px var(--sh-d);
+}
+
+.neu-in-sm {
+  border-radius: var(--r-sm);
+  box-shadow:
+    inset -3px -3px 6px var(--sh-l),
+    inset 3px 3px 6px var(--sh-d);
+}
+
+/* pressed / inset flip */
+.pressed {
+  box-shadow:
+    inset -5px -5px 10px var(--sh-l),
+    inset 5px 5px 10px var(--sh-d);
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 22px;
+  border-radius: 14px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--text-hi);
+  background: var(--surface);
+  box-shadow:
+    -6px -6px 12px var(--sh-l),
+    6px 6px 12px var(--sh-d);
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease,
+    color 0.2s ease;
+  will-change: transform;
+}
+
+.btn:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px) scale(0.99);
+  box-shadow:
+    inset -4px -4px 8px var(--sh-l),
+    inset 4px 4px 8px var(--sh-d);
+}
+
+.btn.primary {
+  color: var(--accent);
+}
+
+.btn.sm {
+  padding: 9px 14px;
+  font-size: 12.5px;
+  border-radius: 12px;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  color: var(--text-mid);
+  background: var(--surface);
+  box-shadow:
+    -5px -5px 10px var(--sh-l),
+    5px 5px 10px var(--sh-d);
+  transition:
+    color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.icon-btn:hover {
+  color: var(--accent);
+}
+
+.icon-btn:active {
+  transform: scale(0.96);
+  box-shadow:
+    inset -3px -3px 6px var(--sh-l),
+    inset 3px 3px 6px var(--sh-d);
+}
+
+.icon-btn[aria-pressed='true'] {
+  color: var(--accent);
+  box-shadow:
+    inset -3px -3px 6px var(--sh-l),
+    inset 3px 3px 6px var(--sh-d);
+}
+
+/* ---------- chips ---------- */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: var(--surface);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  color: var(--text-mid);
+  box-shadow:
+    -4px -4px 8px var(--sh-l),
+    4px 4px 8px var(--sh-d);
+  transition:
+    box-shadow 0.15s ease,
+    color 0.2s ease,
+    transform 0.15s ease;
+}
+
+button.chip {
+  cursor: pointer;
+}
+
+button.chip:hover {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+button.chip.on {
+  color: var(--accent);
+  transform: none;
+  box-shadow:
+    inset -3px -3px 6px var(--sh-l),
+    inset 3px 3px 6px var(--sh-d);
+}
+
+.chip.amber {
+  color: var(--amber);
+}
+
+.chip.static {
+  cursor: default;
+}
+
+/* ---------- cards ---------- */
+
+.card {
+  background: var(--surface);
+  border-radius: var(--r-lg);
+  padding: 24px;
+  box-shadow:
+    -8px -8px 18px var(--sh-l),
+    8px 8px 18px var(--sh-d);
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.25s ease,
+    background-color 0.35s ease;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    -10px -10px 22px var(--sh-l),
+    10px 10px 22px var(--sh-d);
+}
+
+.card.inset {
+  border-radius: var(--r-md);
+  box-shadow:
+    inset -6px -6px 12px var(--sh-l),
+    inset 6px 6px 12px var(--sh-d);
+}
+
+/* ---------- range slider ---------- */
+
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--bg-deep);
+  outline-offset: 6px;
+  box-shadow:
+    inset 3px 3px 7px var(--sh-d),
+    inset -3px -3px 7px var(--sh-l);
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, var(--accent) 0 4px, var(--surface) 4.6px);
+  box-shadow:
+    -4px -4px 8px var(--sh-l),
+    4px 4px 8px var(--sh-d);
+  cursor: grab;
+  border: none;
+}
+
+.range::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  box-shadow:
+    inset -2px -2px 5px var(--sh-l),
+    inset 2px 2px 5px var(--sh-d);
+}
+
+.range::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: none;
+  background: radial-gradient(circle at 50% 50%, var(--accent) 0 4px, var(--surface) 4.6px);
+  box-shadow:
+    -4px -4px 8px var(--sh-l),
+    4px 4px 8px var(--sh-d);
+  cursor: grab;
+}
+
+/* ---------- rocker switch (theme) ---------- */
+
+.rocker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 62px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--bg-deep);
+  box-shadow:
+    inset 3px 3px 7px var(--sh-d),
+    inset -3px -3px 7px var(--sh-l);
+  flex: none;
+}
+
+.rocker .knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--amber);
+  background: var(--surface);
+  box-shadow:
+    -3px -3px 6px var(--sh-l),
+    3px 3px 6px var(--sh-d);
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+}
+
+.rocker[aria-checked='true'] .knob {
+  transform: translateX(32px);
+  color: var(--accent);
+}

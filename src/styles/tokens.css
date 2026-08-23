@@ -1,0 +1,71 @@
+:root {
+  --font-display: 'Space Grotesk Variable', 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter Variable', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, monospace;
+
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+
+  /* scene palette mirrors (kept in sync with src/lib/palette.ts) */
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #24282f;
+  --bg-deep: #1d2127;
+  --surface: #2a2f37;
+  --surface-2: #2f3540;
+
+  --sh-d: #1e2127;
+  --sh-l: #343a44;
+
+  --text-hi: #e8eaed;
+  --text-body: #c3c9d2;
+  --text-mid: #9aa3af;
+  --text-low: #6b7480;
+
+  --accent: #4ade80;
+  --accent-strong: #22c55e;
+  --accent-dim: rgba(74, 222, 128, 0.14);
+  --amber: #fbbf24;
+  --amber-dim: rgba(251, 191, 36, 0.14);
+  --danger: #f87171;
+  --cyan: #38bdf8;
+  --cyan-dim: rgba(56, 189, 248, 0.16);
+  --violet: #a78bfa;
+  --violet-dim: rgba(167, 139, 250, 0.16);
+
+  --vig: 0.32;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #e6e9ef;
+  --bg-deep: #dcdfe6;
+  --surface: #ebeef3;
+  --surface-2: #f0f3f7;
+
+  --sh-d: #c4cbd6;
+  --sh-l: #ffffff;
+
+  --text-hi: #23272f;
+  --text-body: #3c4450;
+  --text-mid: #5b6472;
+  --text-low: #88919e;
+
+  --accent: #16a34a;
+  --accent-strong: #15803d;
+  --accent-dim: rgba(22, 163, 74, 0.12);
+  --amber: #d97706;
+  --amber-dim: rgba(217, 119, 6, 0.14);
+  --danger: #dc2626;
+  --cyan: #0369a1;
+  --cyan-dim: rgba(3, 105, 161, 0.12);
+  --violet: #7c3aed;
+  --violet-dim: rgba(124, 58, 237, 0.12);
+
+  --vig: 0.12;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishavh Shukla — Senior Software Engineer</title>
+    <meta name="description" content="Portfolio of Rishavh Shukla — Senior Software Engineer across Salesforce, Agentic AI and embedded systems. FPV pilot, hardware tinkerer, open-source builder." />
+    <meta name="theme-color" content="#24282f" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#e7eaef" media="(prefers-color-scheme: light)" />
+
+    <meta property="og:title" content="Rishavh Shukla — Flight Deck" />
+    <meta property="og:description" content="Salesforce × Agentic AI × Embedded. I build software, hardware, and the occasional aircraft." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rishavh Shukla",
+        "jobTitle": "Senior Software Engineer",
+        "email": "mailto:Rishavh1312@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "IN" },
+        "sameAs": [
+          "https://www.linkedin.com/in/rishavh-shukla-775aa61ba/",
+          "https://github.com/rover1312"
+        ]
+      }
+    </script>
+
+    <script>
+      // Resolve theme before first paint (no flash) — light is the default
+      try {
+        var t = localStorage.getItem('fd-theme')
+        if (t !== 'light' && t !== 'dark') t = 'light'
+        document.documentElement.dataset.theme = t
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+    <style>
+      html { background: #24282f; }
+      html[data-theme='light'] { background: #e7eaef; }
+      body { margin: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio needs JavaScript — it's an interactive flight deck.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
