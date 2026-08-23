@@ -1,0 +1,77 @@
+RISHAVH SHUKLA
+Senior Software Engineer - Salesforce x Agentic AI x Embedded
+Hyderabad, Telangana, India (open to relocate)
+
+CONTACT
+  Email:    Rishavh1312@gmail.com
+  Phone:    +91 77359 23380
+  LinkedIn: https://www.linkedin.com/in/rishavh-shukla-775aa61ba/
+  GitHub:   https://github.com/rover1312
+  Site:     https://rover1312.github.io/resume-v2/
+
+SUMMARY
+  Senior software engineer with 4+ years across enterprise Salesforce
+  delivery, agentic AI systems and embedded firmware. First developer on
+  ArcelorMittal's Salesforce team; 7x certified (PD1, Admin, App Builder,
+  AI Associate, FSC AP, Process Automation AP, nCino 301). 10+ years
+  building and flying FPV drones; open-source hardware/firmware author.
+
+EXPERIENCE
+ArcelorMittal GBT - Engineer, Europe Flat IT (Salesforce) | 2025 - Present
+  - First developer on the Salesforce team; built the team's working
+    knowledge of a 15-year-old system from ground zero; led multiple KT sessions.
+  - Top delivery velocity: 6-7 stories per release vs team norm of 2-3.
+  - Built metadata-configured org-to-org data migration tool, eliminating
+    post-sandbox-refresh reload pain for large dynamic product data.
+  - Led Aura -> LWC modernization across a large component base.
+  - BAU production incident response; onboarded new members on system flows.
+
+Cognizant - Associate / Salesforce Developer | 2022 - 2025
+  Clients: TD Bank, Bloomberg Media Cloud, Bloomberg New Economy Forum
+  - TD Bank: delivered 8+ LWC & nCino upskilling sessions; migrated legacy
+    integrations; OIDC auth setup (Auth Providers + custom Apex).
+  - Bloomberg Media Cloud: unified opportunity pipeline; bulk lead
+    approval utility (LWC).
+  - New Economy Forum: high-scale email service (LWC + Apex Batch,
+    1000+ recipients, scheduled sends); >90% test coverage; Experience
+    Cloud revamp cutting load time 25%; multi-participant event
+    onboarding (+90% efficiency); Apex -> batch refactors.
+  - Award: Diamond in the Rough (2023).
+  - Started as Salesforce Developer Intern (Jan-Aug 2022).
+
+PROJECTS
+ShutterLink - github.com/rover1312/shutterlink
+  ESP32-C3 BLE bridge turning an RC switch into DJI Osmo record control;
+  battery/REC telemetry into Betaflight HD OSD. Reverse-engineered
+  DUML-over-BLE protocol, MSPv2 SET_TEXT injection, NimBLE state machine. MIT.
+QuantDeck - github.com/rover1312/quantdeck
+  Agentic AI trading platform for NSE equities: dual screening engines
+  (technical confluence + thesis-driven STAWKS high-alpha framework),
+  LangGraph agent pipelines, exit-discipline portfolio manager,
+  paper/live brokers (Zerodha), local LLM via Ollama.
+Text-to-Lookup Migrator - github.com/rover1312/Salesforce_TexttoLookupMigrator
+  LWC + Batch Apex bulk conversion of Text fields to lookups.
+OCR Document Scanner (internal)
+  Einstein OCR + Google Vision document scanning in Salesforce.
+
+SKILLS
+  Salesforce: Apex, LWC/Aura, Flows, REST API, Async Apex, Data Migration,
+              Sales Cloud, Experience Cloud, Media Cloud, nCino, SFDX/Git
+  AI:         Agentic AI patterns, LangGraph, Ollama/local LLMs,
+              Einstein AI, Google Vision AI, OCR pipelines
+  Embedded:   ESP32 C/C++, BLE (NimBLE), DUML/MSP protocols, PlatformIO,
+              non-blocking state machines, UART/GATT
+  Hardware:   FPV quad design/tuning, Betaflight, electronics repair,
+              soldering/rework
+  Ways of working: KT leadership, incident response, mentoring, Agile
+
+EDUCATION
+  Kalinga Institute of Industrial Technology (KIIT)
+  B.Tech - Electronics & Telecommunications, 2018-2022
+
+CERTIFICATIONS
+  Platform Developer I | Administrator | Platform App Builder |
+  AI Associate | Financial Services Cloud AP | Process Automation AP | nCino 301
+
+INTERESTS
+  FPV drones, table tennis, open source, electronics, music

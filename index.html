@@ -12,7 +12,11 @@
     <meta property="og:description" content="Salesforce × Agentic AI × Embedded. I build software, hardware, and the occasional aircraft." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
+    <meta name="keywords" content="Rishavh Shukla, Senior Software Engineer, Salesforce Developer, LWC, Apex, Agentic AI, LangGraph, Embedded Systems, ESP32, FPV Drones, Hyderabad, ArcelorMittal, Cognizant, resume, CV" />
 
+    <!-- Machine-readable résumé endpoints for automated tools -->
+    <link rel="alternate" type="text/plain" title="Résumé (plain text)" href="./resume.txt" />
+    <link rel="alternate" type="application/json" title="Résumé (JSON Resume format)" href="./resume.json" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 
     <script type="application/ld+json">
@@ -22,10 +26,30 @@
         "name": "Rishavh Shukla",
         "jobTitle": "Senior Software Engineer",
         "email": "mailto:Rishavh1312@gmail.com",
-        "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "IN" },
+        "telephone": "+91-77359-23380",
+        "description": "Senior software engineer with 4+ years across enterprise Salesforce delivery, agentic AI systems and embedded firmware. 7x Salesforce certified. FPV pilot and open-source hardware author.",
+        "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressRegion": "Telangana", "addressCountry": "IN" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Kalinga Institute of Industrial Technology" },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ArcelorMittal GBT",
+          "department": "Europe Flat IT"
+        },
+        "knowsAbout": [
+          "Salesforce", "Apex", "Lightning Web Components", "nCino", "Experience Cloud",
+          "Agentic AI", "LangGraph", "Large Language Models",
+          "Embedded systems", "ESP32 firmware", "BLE", "C++",
+          "FPV drones", "Electronics", "Betaflight"
+        ],
         "sameAs": [
           "https://www.linkedin.com/in/rishavh-shukla-775aa61ba/",
-          "https://github.com/rover1312"
+          "https://github.com/rover1312",
+          "https://github.com/rover1312/shutterlink",
+          "https://github.com/rover1312/quantdeck"
+        ],
+        "subjectOf": [
+          { "@type": "CreativeWork", "name": "Plain-text résumé", "url": "./resume.txt" },
+          { "@type": "CreativeWork", "name": "Structured résumé (JSON)", "url": "./resume.json" }
         ]
       }
     </script>
@@ -48,7 +72,55 @@
   </head>
   <body>
     <div id="root"></div>
-    <noscript>This portfolio needs JavaScript — it's an interactive flight deck.</noscript>
+
+    <!--
+      SCRAPERS / ATS / LLM TOOLS:
+      This site is an interactive client-rendered experience. The full résumé is
+      available as static files — no JavaScript needed:
+        ./resume.txt   (plain text)
+        ./resume.json  (JSON Resume format)
+    -->
+    <noscript>
+      <section aria-label="Résumé summary">
+        <h1>Rishavh Shukla — Senior Software Engineer</h1>
+        <p>Salesforce × Agentic AI × Embedded. Hyderabad, India (open to relocate).</p>
+        <ul>
+          <li>Email: Rishavh1312@gmail.com</li>
+          <li>Phone: +91 77359 23380</li>
+          <li>LinkedIn: linkedin.com/in/rishavh-shukla-775aa61ba</li>
+          <li>GitHub: github.com/rover1312</li>
+        </ul>
+        <h2>Experience</h2>
+        <ul>
+          <li>ArcelorMittal GBT — Engineer, Europe Flat IT (Salesforce), 2025–present. First developer on the Salesforce team; built team knowledge of a 15-year-old system; led KT sessions; 6–7 stories per release vs 2–3 norm; metadata-driven org-to-org data migration tool; led Aura→LWC modernization; BAU incident support.</li>
+          <li>Cognizant — Associate/Salesforce Developer, 2022–2025 (clients: TD Bank, Bloomberg Media Cloud, New Economy Forum). 8+ LWC/nCino upskilling sessions at TD Bank; OIDC auth setup; opportunity pipeline unification; high-scale email service (1000+ recipients, Apex Batch); Experience Cloud revamp −25% load time; &gt;90% test coverage; Diamond in the Rough award 2023.</li>
+        </ul>
+        <h2>Projects</h2>
+        <ul>
+          <li>ShutterLink — ESP32-C3 BLE bridge, DJI Osmo record control + Betaflight OSD telemetry (github.com/rover1312/shutterlink)</li>
+          <li>QuantDeck — agentic AI trading platform for NSE equities, LangGraph pipelines, STAWKS high-alpha framework (github.com/rover1312/quantdeck)</li>
+        </ul>
+      </section>
+    </noscript>
+
+    <!-- Hidden-but-crawlable fallback for tools that fetch raw HTML -->
+    <div id="scraper-fallback" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+      <h2>Rishavh Shukla — Senior Software Engineer — Salesforce, Agentic AI, Embedded Systems</h2>
+      <p>Contact: Rishavh1312@gmail.com · +91 77359 23380 · linkedin.com/in/rishavh-shukla-775aa61ba · github.com/rover1312 · Hyderabad, India, open to relocate · 4+ years experience · Full résumé: resume.txt and resume.json</p>
+      <h3>ArcelorMittal GBT — Engineer, Europe Flat IT (Salesforce) — 2025 to present</h3>
+      <p>First developer on the Salesforce team; ground-up mastery of a 15-year-old system; led multiple KT sessions; top delivery velocity 6-7 stories per release vs 2-3 norm; built metadata-configured org-to-org data migration tool for large dynamic product data; led Aura-to-LWC modernization; BAU production incident response and mentoring.</p>
+      <h3>Cognizant — Associate, Salesforce Developer — 2022 to 2025</h3>
+      <p>Clients: TD Bank, Bloomberg Media Cloud, Bloomberg New Economy Forum. 8+ LWC and nCino upskilling sessions; legacy integration migration; OIDC auth with Auth Providers and custom Apex; opportunity pipeline unification; bulk lead approval LWC utility; high-scale email service with LWC and Apex Batch (1000+ recipients, scheduled sends); over 90% test coverage; Experience Cloud home revamp reducing load time 25%; multi-participant event onboarding improving efficiency 90%; Diamond in the Rough award 2023; Salesforce Developer Intern Jan-Aug 2022.</p>
+      <h3>Open-source projects</h3>
+      <p>ShutterLink: ESP32-C3 BLE bridge turning RC switches into DJI Osmo record control with Betaflight OSD telemetry, reverse-engineered DUML protocol, MSPv2. QuantDeck: agentic AI trading platform for NSE equities with LangGraph pipelines and thesis-driven high-alpha screening. Text-to-Lookup Migrator: LWC plus Batch Apex field conversion. OCR Document Scanner: Einstein OCR and Google Vision in Salesforce.</p>
+      <h3>Skills</h3>
+      <p>Apex, Lightning Web Components, Aura, Flows, REST API, asynchronous Apex, data migration, Sales Cloud, Experience Cloud, Media Cloud, nCino, SFDX, Git, agentic AI patterns, LangGraph, Ollama local LLMs, Einstein AI, Google Vision, ESP32 firmware, C/C++, BLE NimBLE, DUML MSP protocols, PlatformIO, FPV drone design and tuning, Betaflight, electronics repair, soldering, KT leadership, incident management, mentoring, Agile Scrum.</p>
+      <h3>Certifications</h3>
+      <p>Platform Developer I, Administrator, Platform App Builder, AI Associate, Financial Services Cloud Accredited Professional, Process Automation Accredited Professional, nCino 301.</p>
+      <h3>Education</h3>
+      <p>Kalinga Institute of Industrial Technology, B.Tech Electronics and Telecommunications, 2018-2022.</p>
+    </div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

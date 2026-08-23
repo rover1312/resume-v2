@@ -62,7 +62,10 @@ export function Comms() {
 
         <footer className="foot">
           <span>© {new Date().getFullYear()} RISHAVH SHUKLA</span>
-          <span>REACT + THREE.JS — HANDCRAFTED, NO TEMPLATES</span>
+          <a href="./resume.txt" target="_blank" rel="noreferrer" style={{ color: 'var(--cyan)' }}>
+            RESUME.TXT // DATA EXPORT
+          </a>
+          <span>REACT + THREE.JS — HANDCRAFTED</span>
           <span>PRESS [F] FOR FPV MODE</span>
         </footer>
       </div>

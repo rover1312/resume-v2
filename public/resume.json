@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "Rishavh Shukla",
+    "label": "Senior Software Engineer - Salesforce x Agentic AI x Embedded",
+    "email": "Rishavh1312@gmail.com",
+    "phone": "+91 77359 23380",
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "countryCode": "IN",
+      "relocate": true
+    },
+    "url": "https://rover1312.github.io/resume-v2/",
+    "profiles": [
+      { "network": "LinkedIn", "username": "rishavh-shukla", "url": "https://www.linkedin.com/in/rishavh-shukla-775aa61ba/" },
+      { "network": "GitHub", "username": "rover1312", "url": "https://github.com/rover1312" }
+    ],
+    "summary": "Senior software engineer with 4+ years across enterprise Salesforce delivery, agentic AI systems and embedded firmware. First developer on ArcelorMittal's Salesforce team; led KT sessions and Aura-to-LWC modernization; top delivery velocity (6-7 stories/release vs 2-3 norm). Built metadata-driven org-to-org data migration tooling. 7x Salesforce certified. 10+ years building and flying FPV drones; open-source hardware/firmware author (ShutterLink) and agentic AI builder (QuantDeck)."
+  },
+  "work": [
+    {
+      "name": "ArcelorMittal GBT",
+      "position": "Engineer - Europe Flat IT (Salesforce)",
+      "startDate": "2025",
+      "endDate": "present",
+      "highlights": [
+        "First developer on the Salesforce team; built team knowledge of a 15-year-old system from zero; led multiple KT sessions.",
+        "Top delivery velocity: 6-7 stories per release vs team norm of 2-3.",
+        "Built metadata-configured org-to-org data migration tool eliminating post-sandbox-refresh data reload pain.",
+        "Led Aura to LWC modernization of a large component base.",
+        "BAU production incident response while mentoring new members."
+      ]
+    },
+    {
+      "name": "Cognizant",
+      "position": "Associate / Salesforce Developer",
+      "startDate": "2022",
+      "endDate": "2025",
+      "highlights": [
+        "Clients: TD Bank, Bloomberg Media Cloud, Bloomberg New Economy Forum.",
+        "TD Bank: 8+ LWC & nCino upskilling sessions; legacy integration migration; OIDC auth setup with Auth Providers + custom Apex.",
+        "Bloomberg Media Cloud: unified opportunity pipeline; bulk lead approval utility in LWC.",
+        "New Economy Forum: high-scale email service (LWC + Apex Batch, 1000+ recipients, scheduled); >90% test coverage; Experience Cloud revamp (-25% load time); multi-participant onboarding (+90% efficiency).",
+        "Award: Diamond in the Rough (2023). Salesforce Developer Intern Jan-Aug 2022."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kalinga Institute of Industrial Technology (KIIT)",
+      "area": "Electronics & Telecommunications",
+      "studyType": "B.Tech",
+      "startDate": "2018",
+      "endDate": "2022"
+    }
+  ],
+  "certificates": [
+    { "name": "Salesforce Certified Platform Developer I", "date": "2023-07" },
+    { "name": "Salesforce Certified Administrator", "date": "2023-06" },
+    { "name": "Salesforce Certified Platform App Builder", "date": "2024-03" },
+    { "name": "Salesforce Certified AI Associate", "date": "2024-01" },
+    { "name": "Financial Services Cloud Accredited Professional", "date": "2023-03" },
+    { "name": "Process Automation Accredited Professional", "date": "2023-07" },
+    { "name": "nCino 301", "date": "" }
+  ],
+  "skills": [
+    { "name": "Salesforce Platform", "keywords": ["Apex", "LWC/Aura", "Flows", "REST API", "Async Apex", "Data Migration", "Sales Cloud", "Experience Cloud", "Media Cloud", "nCino", "SFDX", "Git"] },
+    { "name": "AI & Agentic Systems", "keywords": ["Agentic AI patterns", "LangGraph", "Ollama/local LLMs", "Einstein AI", "Google Vision AI", "OCR pipelines"] },
+    { "name": "Embedded & Firmware", "keywords": ["ESP32", "C/C++", "BLE (NimBLE)", "DUML/MSP protocols", "PlatformIO", "non-blocking state machines", "UART/GATT"] },
+    { "name": "Hardware", "keywords": ["FPV quad design/tuning", "Betaflight", "electronics repair/rework", "soldering"] },
+    { "name": "Ways of Working", "keywords": ["KT leadership", "incident response", "mentoring", "Agile/Scrum"] }
+  ],
+  "projects": [
+    {
+      "name": "ShutterLink",
+      "description": "ESP32-C3 BLE bridge turning an RC switch into DJI Osmo record control; battery/REC telemetry into Betaflight HD OSD. Reverse-engineered DUML-over-BLE protocol, MSPv2 SET_TEXT injection, NimBLE state machine. MIT licensed.",
+      "url": "https://github.com/rover1312/shutterlink"
+    },
+    {
+      "name": "QuantDeck",
+      "description": "Agentic AI trading platform for NSE equities: dual screening engines (technical confluence + thesis-driven STAWKS high-alpha framework), LangGraph agent pipelines, exit-discipline portfolio manager, paper/live brokers (Zerodha), local LLM via Ollama.",
+      "url": "https://github.com/rover1312/quantdeck"
+    },
+    {
+      "name": "Text-to-Lookup Migrator",
+      "description": "Salesforce LWC + Batch Apex component converting Text fields into lookup relationships via config-driven bulk migration.",
+      "url": "https://github.com/rover1312/Salesforce_TexttoLookupMigrator"
+    },
+    {
+      "name": "OCR Document Scanner",
+      "description": "LWC component scanning documents inside Salesforce using Einstein OCR + Google Vision APIs.",
+      "url": null
+    }
+  ],
+  "interests": ["FPV drones", "table tennis", "open source", "electronics", "music"]
+}
